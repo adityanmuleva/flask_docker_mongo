@@ -3,8 +3,6 @@ services:
 mongodb:
   image: mongo
   container_name: aaditya_mongodb
-  volumes:
-    - C:/Aaditya_Personal/Copytime_calculator/MongoDB:/data/db
   ports:
     - 27017:27017
   restart: unless-stopped
