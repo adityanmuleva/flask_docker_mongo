@@ -1,0 +1,4 @@
+venv
+MongoDB
+.idea
+__pycache__/
